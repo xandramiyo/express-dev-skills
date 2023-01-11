@@ -4,7 +4,7 @@ const skillsCtrl = require('../controllers/skills')
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express Skills' });
+  res.render('index', { title: 'Home Page' });
 });
 
 module.exports = router;
