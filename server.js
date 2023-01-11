@@ -6,7 +6,7 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
-const skillsRouter = require('./routes/skills')
+var skillsRouter = require('./routes/skills')
 
 var app = express();
 
