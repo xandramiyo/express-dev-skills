@@ -9,7 +9,7 @@ a {
 
 .delete-form {
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 1px;
 }
 	
 .delete-form button {
@@ -18,4 +18,13 @@ a {
 	
 li {
   list-style: none;
+}
+
+.edit {
+  display: inline-block;
+  margin-right: 10px;
+}
+	
+.edit button {
+  color: rgb(50, 102, 57);
 }

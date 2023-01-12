@@ -2,5 +2,7 @@
 
     <h3><%= skill.skill %></h3>
     <h3>Skills Learned: <%= skill.learned ? 'Learned' : 'Not Learned' %></h3>
+
+    <a href="/skills/<%= skill.id%>/edit">Edit</a>
     
 <%- include('../partials/footer') %>
